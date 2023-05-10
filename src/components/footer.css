@@ -1,0 +1,16 @@
+#footer {
+    background: #014421;
+    margin-top: 1.5rem;
+    color: white;
+    /* position:absolute; */
+    /* margin-top: 3%; */
+    bottom: 0px
+}
+
+.info {
+  text-align: left;
+}
+
+#hours {
+  text-align: right;
+}

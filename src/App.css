@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500&family=Playfair+Display:wght@400;500&family=Quicksand:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  position:relative;
+  font-family: 'Playfair Display', serif;
+}
+
+.carousel-item img {
+  height: 600px;
+  width: 90%;
+}
+
+#homepage-text{
+  text-align: center;
+}
+
+.carousel {
+  background-color: #01442100;
+  padding: 1rem 0;
+}
+
+.carousel-caption {
+  background-color: #00000083;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#donate-img {
+  width: 300px;
+  padding-bottom: 3rem;
+}
+
+.kids-img {
+  width: 250px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%);
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.342);
+}
+
+.carousel-caption > h5 {
+  font-size: 10pt;;
+}
+
+.card-facility {
+  display: flex;
+  flex-direction: column;
+  transform: none !important;
+}
+
+
+/* grid css not currently working */
+/* #grid
+{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    min-height: 100vh;
+
+}
+
+#header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#content {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#footer {
+  grid-row-start: 3;
+  grid-row-end: 4;
+} */

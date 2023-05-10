@@ -1,0 +1,27 @@
+
+body {
+    background-image: url('../../pics/bg-color.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #014421;
+}
+
+figcaption {
+    color: #7D6907;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.img-fluid {
+    width: 250px;
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
